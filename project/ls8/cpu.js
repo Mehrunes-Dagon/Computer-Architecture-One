@@ -14,11 +14,11 @@ class CPU {
         this.ram = ram;
 
         this.reg = new Array(8).fill(0); // General-purpose registers R0-R7
-        
+
         // Special-purpose registers
         this.PC = 0; // Program Counter
     }
-    
+
     /**
      * Store value in memory address, useful for program loading
      */
@@ -88,8 +88,8 @@ class CPU {
         // can be 1, 2, or 3 bytes long. Hint: the high 2 bits of the
         // instruction byte tells you how many bytes follow the instruction byte
         // for any particular instruction.
-        
-        // !!! IMPLEMENT ME
+
+        // !!! IMPLEMENT ME YEAH?
     }
 }
 
